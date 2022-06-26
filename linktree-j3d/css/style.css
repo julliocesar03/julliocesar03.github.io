@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(6,105,178,1) 0%, rgba(2,38,65,1) 100%);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 20px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.social img {
+  width: 33px;
+  height: 33px;
+}
+
+.links-list{
+  text-decoration: none;
+  list-style: none;
+  color: #9a9a9a;
+}
+
+.list-contents a {
+  color: #0669b2;
+  font-weight: bold;
+  display: block;
+  background-color: white;
+  margin: 0 20px 10px 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
+  text-decoration: none;
+}
+
+.list-contents a p {
+  color: #9c9c9c;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 2px;
+}
