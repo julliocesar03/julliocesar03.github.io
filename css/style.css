@@ -4,11 +4,12 @@
 }
 
 html, body {
-  height: 100vh;
+  height: 100%;
 }
 
 body {
-  background: linear-gradient(180deg, rgba(6,105,178,1) 0%, rgba(2,38,65,1) 100%);
+  background: rgb(54,77,204);
+  background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
   color: white;
   font-family: 'Raleway', sans-serif;
 }
@@ -21,8 +22,8 @@ body {
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 100;
   font-size: 24px;
   margin-bottom: 2px;
 }
@@ -55,7 +56,7 @@ h2 {
 }
 
 .list-contents a {
-  color: #0669b2;
+  color: rgb(54,77,204);
   font-weight: bold;
   display: block;
   background-color: white;
@@ -71,20 +72,4 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   margin-top: 2px;
-}
-
-footer {
-  background: rgb(0, 32, 58);
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  padding: 5px 0;
-  height: 20px;
-  position: fixed;
-  width: 100%;
-}
-
-footer a {
-  text-decoration: none;
-  color: #FFF;
 }
