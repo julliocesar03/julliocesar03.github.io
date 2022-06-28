@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -12,6 +13,7 @@ body {
   background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
   color: white;
   font-family: 'Raleway', sans-serif;
+  background-attachment: fixed;
 }
 
 .avatar {
